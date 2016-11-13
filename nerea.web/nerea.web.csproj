@@ -368,6 +368,7 @@
     <Compile Include="Controllers\PageListBlockController.cs" />
     <Compile Include="Controllers\PreviewController.cs" />
     <Compile Include="Controllers\RegisterController.cs" />
+    <Compile Include="Controllers\NereaStartPageController.cs" />
     <Compile Include="Controllers\StartPageController.cs" />
     <Compile Include="Controllers\VideoFileController.cs" />
     <Compile Include="Global.asax.cs">
@@ -396,6 +397,7 @@
     <Compile Include="Models\Pages\IHasRelatedContent.cs" />
     <Compile Include="Models\Pages\ISearchPage.cs" />
     <Compile Include="Models\Pages\LandingPage.cs" />
+    <Compile Include="Models\Pages\NereaStartPage.cs" />
     <Compile Include="Models\Pages\NewsPage.cs" />
     <Compile Include="Models\Pages\ProductPage.cs" />
     <Compile Include="Models\Pages\SitePageData.cs" />
@@ -541,6 +543,7 @@
     <Content Include="module.config" />
     <Content Include="Views\Shared\FindTemplateHint.cshtml" />
     <Content Include="Views\FindSearchPage\Index.cshtml" />
+    <Content Include="Views\NereaStartPage\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
